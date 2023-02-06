@@ -1,0 +1,17 @@
+{
+  currentPlayerAll {
+    id
+    name
+    points
+    inventory {
+      name
+    }
+    billing {
+      balance
+      operations {
+        amount
+        description
+      }
+    }
+  }
+}
