@@ -1,0 +1,17 @@
+{
+  currentPlayer(id: 11) {
+    id
+    name
+    points
+    inventory {
+      name
+    }
+    billing {
+      balance
+      operations {
+        amount
+        description
+      }
+    }
+  }
+}
